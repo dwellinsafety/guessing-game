@@ -5,7 +5,7 @@ def main():
 
 	print("Welcome to the guessing game!")
 
-	guess = input("\nGuess an integer between 1 and 10.")
+	guess = input("\n\nGuess an integer between 1 and 10: ")
 	guess = int(guess)
 
 	while True:
